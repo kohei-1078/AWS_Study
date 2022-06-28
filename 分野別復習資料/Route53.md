@@ -9,3 +9,6 @@
         - 対象ドメイン宛のメール転送先ホスト名を定義するレコード
     - A
         - ホスト（FQDN）とサーバーを識別するグローバルIPアドレスの関連付けを定義するレコード
+    - Alias
+        - DNS機能に対するRoute53固有の拡張機能を提供する
+        - IPアドレスまたはドメイン名の代わりに、CloudFrontディストリビューション、Elastic Beanstalk環境、ELB Classic、Application、またはNetwork Load Balancer、静的Webサイトとして設定されているS3バケットへのポインタ、または同じホストゾーン内の別のRoute53レコードを設定することができる
