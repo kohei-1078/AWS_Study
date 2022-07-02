@@ -10,6 +10,9 @@
         - 1対1
     - AWS Transit Gateway
         - 多対多
+- VPCフローログ
+    - ネットワークトラフィックを取得し、CloudWatchでモニタリングできるようにする機能
+    - EC2、RDS、Redshift、ElastiCache、WorkSpacesで利用できる
 
 ### 接続方式
 - SnowBall edge
