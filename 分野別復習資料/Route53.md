@@ -10,6 +10,7 @@
     - A
         - ホスト（FQDN）とサーバーを識別するグローバルIPアドレスの関連付けを定義するレコード
     - Alias
+        - **他のAWSリソースと紐づけるために利用される**
         - DNS機能に対するRoute53固有の拡張機能を提供する
         - IPアドレスまたはドメイン名の代わりに、CloudFrontディストリビューション、Elastic Beanstalk環境、ELB Classic、Application、またはNetwork Load Balancer、静的Webサイトとして設定されているS3バケットへのポインタ、または同じホストゾーン内の別のRoute53レコードを設定することができる
 - ルーティング
