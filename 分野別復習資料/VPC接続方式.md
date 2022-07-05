@@ -13,6 +13,11 @@
 - VPCフローログ
     - ネットワークトラフィックを取得し、CloudWatchでモニタリングできるようにする機能
     - EC2、RDS、Redshift、ElastiCache、WorkSpacesで利用できる
+- VPCエンドポイント
+    - ゲートウェイ型
+        - S3またはDynamoDB
+    - プライベートリンク型
+        - 上記以外のサービス
 
 ### 接続方式
 - SnowBall edge
